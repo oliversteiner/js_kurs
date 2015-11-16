@@ -10,12 +10,12 @@
 ##Fehlersuche
  Zeige Zwischenschritte mittels **console.log(variable)** auf.
 ```js
- console.log(variable)
+ console.log(variable);
 ```
 
 ##if Abfrage
  = mit == verwechselt?
 ```js
-if(true == 1){ console.log('ok')} // korrekt
-if(true = 1){ console.log('ok')} // falsch
+if(true == 1){ console.log('ok');} // korrekt
+if(true = 1){ console.log('ok');} // falsch
 ```
