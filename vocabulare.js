@@ -1,3 +1,5 @@
+<script>
+
 // Das ist ein einzeiliger Kommentar
 
 
@@ -8,3 +10,12 @@
 */
 
 
+// Eine Variable ist ein Stellvertreter für einen beliebigen Wert
+// Variable
+
+var wert = "Hallo Welt";
+
+
+
+
+</script>
