@@ -2,19 +2,20 @@
 
 
 ##Allgemein
-1. am Ende der Zeile das ; vergessen? oder ein : geschrieben?
+1. am Ende der Zeile das **;** vergessen? oder ein **:** geschrieben?
 2. Variable falsch geschrieben?
 3. Variable gross-keinschreibung falsch?
 
 
 ##Fehlersuche
-1. Zeige Zwischenschritte mittels # console.log(variable) # auf.
-
-
+ Zeige Zwischenschritte mittels **console.log(variable)** auf.
+```js
+ console.log(variable)
+```
 
 ##if Abfrage
-1. = mit == verwechselt?
-
+ = mit == verwechselt?
+```js
 if(true == 1){ console.log('ok')} // korrekt
 if(true = 1){ console.log('ok')} // falsch
-
+```
