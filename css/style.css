@@ -1,0 +1,22 @@
+#ampel {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color:gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.auto {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+    color: gray;
+    width: 100px;
+    background-color: inherit;
+}
+
+
+
+.auto_faehrt {
+background-color: aquamarine;
+}
