@@ -9,18 +9,63 @@ tag     Die direkten Elemente z.B. <h1>, <div>, <body>
 #xx       mit der Raute sprechen wir alle Elemente mit einer ID an z.B. id="kopf_bereich"
 
 
+Weitere Infos auf:
+https://wiki.selfhtml.org/wiki/CSS
+
 */
 
-
-
-h1{
-    color: red;
+/* Um mehrere TAGs gleichzeitig zu formatiern diese mit Komma trennen */
+h1, h2,  h3, p ,ul ,ol {
+    /* ein bisschen Typo, feel free to change */
+    font-family: Helvetica;
 }
 
-#rahmenbeispiel_1{
+h1{
+    color: grey;
+    font-family: Courier;
+
+}
+
+h2 {
+    color: darkslategray;
+
+    /* eine Absatzlinie unter dem Text */
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px grey solid;
+
+}
+
+#rahmenbeispiel_1 {
+
+    /* Grösse, Farben und Rahmen*/
     width: 200px;
-    height: 200px;
+    height: 50px;
     border: 2px solid grey;
     background-color: silver;
     border-radius: 5px;
+
+    /* Abstände: */
+    margin: 10px; /* Abstand um das Element herum */
+    padding: 20px; /* Abstand innerhalb des Elements */
+
+    /* Texterscheinung innerhalb des Elements*/
+    text-align: center;
+}
+
+.spalte {
+
+    width: 20%;
+    height: 100px;
+    background-color: silver;
+    margin: 5px;
+    padding: 5px;
+
+    /* Eigentlich ist ein div ein Blockelement. */
+    /* Um die divs nebeneinander darzustellen ändern wir das */
+    display: inline-block;
+
+}
+
+.spalten_container {
 }

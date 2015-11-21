@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <link href="css/style_lernen.css.css" rel="stylesheet">
+    <link href="css/style_lernen.css" rel="stylesheet">
 
 
 
@@ -26,7 +26,7 @@
 <ul>
     <li>Die Dinger links und recht von den Texten heissen TAGs</li>
     <li>TAGs kommen meistens in Paaren vor: ein Anfangstag und ein Schlusstag.</li>
-    <li>TAGs dürfen nicht verschachtelt werden.</li>
+    <li>TAGs dürfen verschachtelt werden</li>
 </ul>
 
 
@@ -42,7 +42,7 @@
 
 <h3>Jetzt werden wir die TAGs gestalten.</h3>
 
-<h3 style="color:red;">Dieser TAG ist auch ein h3, aber rot!</h3>
+<h3 style="color:red;">Dieser TAG ist auch ein h3, aber farbig!</h3>
 
 
 <p>wenn wir alle h3 grün wollen, schreiben wir das in einen "style"-TAG</p>
@@ -59,22 +59,29 @@
 
 <hr>
 
-<h1>Noch mehr CSS</h1>
+<h2>Noch mehr CSS</h2>
 
 <div>Mit "div" erstellen wir einen leeren Rahmen, vergleichbar zu Indesign.</div>
 <div>Wir können diesen Rahmen nutzen um Elemente zu gruppieren und die Seite zu strukturieren</div>
 <div>Um die Rahmen in unserem CSS nutzen zu können, müssen wie diesen eine eindeutige Indentifikation geben.</div>
 <div>Dazu geben wir dem div eine ID:  <code>id="ramenname"</code> </div>
 
+<hr>
+<h2>Block-Elemente und Inline-Elemente</h2>
 
-<div id="rahmenbeispiel_1">Dieses div wird ein farbiges Quadrat mit dickem Rahmen</div>
+<div id="rahmenbeispiel_1">Dieses div wird ein farbiges Rechteck mit Rahmen und runden Ecken</div>
+
+<div class="spalten_container">
+    <div class="spalte">Spalte 1</div>
+    <div class="spalte">Spalte 2</div>
+    <div class="spalte">Spalte 3</div>
+    <div class="spalte">Spalte 4</div>
+</div>
+
 
 <hr>
 
-<h3>Jetzt wirds interaktiv!</h3>
-<span>Ein Knopf, der was macht: </span>
 
-<button onclick="tuWas();">Action!</button>
 
 
 </body>
