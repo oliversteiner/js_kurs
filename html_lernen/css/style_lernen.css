@@ -1,0 +1,26 @@
+/* Ein Kommentar im CSS schreibt sich so */
+
+/* Um die Verschiedenen Elemente aus dem HTML-Dokument anzusprechen nutzen wir folgende Notation:
+
+tag     Die direkten Elemente z.B. <h1>, <div>, <body>
+
+.xx       mit dem Punkt sprechen wir alle elemente mit einer Klasse an. z.B. class="spalten"
+
+#xx       mit der Raute sprechen wir alle Elemente mit einer ID an z.B. id="kopf_bereich"
+
+
+*/
+
+
+
+h1{
+    color: red;
+}
+
+#rahmenbeispiel_1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    background-color: silver;
+    border-radius: 5px;
+}

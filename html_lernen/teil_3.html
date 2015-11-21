@@ -13,7 +13,8 @@
 
 <p>Das ist ein einfacher Absatz. Auf englisch heisst ein Absatz <strong>P</strong>aragraf. Darum das p.</p>
 
-<p>Noch ein Absatz. Der hier hat noch ein <i>kursives</i> Wort in sich drin. <br>Um einen  Umbruch zu erzwingen nutze das "br"-TAG.</p>
+<p>Noch ein Absatz. Der hier hat noch ein <i>kursives</i> Wort in sich drin. <br>Um einen Umbruch zu erzwingen nutze das
+    "br"-TAG.</p>
 
 
 <h3>Ein paar Begriffe</h3>
@@ -32,6 +33,20 @@
 </ol>
 
 
+
+<h3>Im Start-TAG können weitere information hinterlegt werden.</h3>
+<p>Diese heissen Attribute und werden folgenderweise geschrieben: <code>name="wert"</code>
+</p>
+<h3>Jedes TAG kann folgene Attribute haben:</h3>
+<ol>
+    <li>id - Eine eindeutige Bezeichnung die nur einmal pro Seite vorkommen darf</li>
+    <li>class - eine Allgemeine Bezeichnung, die mehrfach vorkommen darf</li>
+</ol>
+<p>
+Viele Elemente haben eigene Attribute. z.B. "a":<br>
+Ein link auf eine andere Seite wird als "a" (anchor) geschrieben: <a href="https://wiki.selfhtml.org">html-Wiki</a> </p>
+
+
 <hr>
 
 <h3>Jetzt werden wir die TAGs gestalten.</h3>
@@ -42,9 +57,9 @@
 <p>wenn wir alle h3 grün wollen, schreiben wir das in einen "style"-TAG</p>
 
 <style>
-h3{
-    color: green;
-}
+    h3 {
+        color: green;
+    }
 </style>
 
 <p><i>Aber wenn ich ganz viele Html-Dokumente habe, muss ich das jedesmal schreiben? </i></p>
@@ -52,12 +67,6 @@ h3{
 <p>Nicht, wenn ich den Code in ein eigenes Dokument auslagere, und das im HEAD verlinke!</p>
 
 <hr>
-
-<h3>Jetzt wirds interaktiv!</h3>
-<span>Ein Knopf, der was macht: </span>
-
-<button onclick="tuWas();">Action!</button>
-
 
 </body>
 
