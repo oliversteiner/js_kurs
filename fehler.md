@@ -1,19 +1,19 @@
-#Mein Code geht nicht. Wo liegt der Fehler?
+# Mein Code geht nicht. Wo liegt der Fehler?
 
 
-##Allgemein
+## Allgemein
 1. am Ende der Zeile das **;** vergessen? oder ein **:** geschrieben?
 2. Variable falsch geschrieben?
 3. Variable gross-keinschreibung falsch?
 
 
-##Fehlersuche
+## Fehlersuche
  Zeige Zwischenschritte mittels **console.log(variable)** auf.
 ```js
  console.log(variable);
 ```
 
-##if Abfrage
+## if Abfrage
  = mit == verwechselt?
 ```js
 if(true == 1){ console.log('ok');} // korrekt
